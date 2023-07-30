@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Указываем box sizing */
 *,
 *::before,
 *::after {
@@ -188,6 +187,11 @@ a:hover {
   }
   .main__services {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 16%;
+  }
+}
+@media (max-width: 330px) {
+  .main__services {
+    margin-left: 7%;
   }
 }/*# sourceMappingURL=style.css.map */
